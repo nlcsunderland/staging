@@ -509,6 +509,7 @@ caption{
 	display:block;
 	cursor:default;
 	font-weight:600;
+    color: #212b32; /*Colour of any text within h1 tag*/
 	margin-top:0;
 	margin-bottom:40px;
 }
@@ -537,7 +538,9 @@ caption{
 	line-height:1.33333;
 	display:block;
 	font-weight:600;
+    color: #212b32; /*Colour of any text within h2 tag*/
 	margin-top:0;
+    text-align: right;
 	margin-bottom:16px
 }
 @media (min-width:40.0625em){
@@ -567,6 +570,7 @@ caption{
 	line-height:1.4;
 	display:block;
 	font-weight:600;
+    color: #212b32; /*Colour of any text within h3 tag*/
 	margin-top:0;
 	margin-bottom:16px
 }
@@ -594,6 +598,7 @@ caption{
 	line-height:1.55556;
 	display:block;
 	font-weight:600;
+    color: #212b32; /*Colour of any text within h4 tag*/
 	margin-top:0;
 	margin-bottom:16px
 }
@@ -621,6 +626,7 @@ caption{
 	line-height:1.5;
 	display:block;
 	font-weight:600;
+    color: #212b32; /*Colour of any text within h5 tag*/
 	margin-top:0;
 	margin-bottom:16px
 }
@@ -648,6 +654,7 @@ caption{
 	line-height:1.5;
 	display:block;
 	font-weight:600;
+    color: #212b32; /*Colour of any text within h6 tag*/
 	margin-top:0;
 	margin-bottom:16px
 }
@@ -3595,7 +3602,7 @@ b,strong{
 	}
 }
 .nlc-header{
-	background-color:#00a9b3
+	background-color:#00a9b3 /*Background colour of header*/
 }
 .nlc-header:after{
 	clear:both;
@@ -3694,7 +3701,8 @@ b,strong{
 }
 @media (min-width:40.0625em){
 	.nlc-header__content{
-		float:right
+		float:right;
+        padding: 10px;
 	}
 	.nlc-header__content.js-show{
 		border-bottom:0

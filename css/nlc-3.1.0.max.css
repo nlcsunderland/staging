@@ -538,6 +538,7 @@ caption{
 	line-height:1.33333;
 	display:block;
 	font-weight:600;
+    text-align: right;
 	margin-top:0;
 	margin-bottom:16px
 }
